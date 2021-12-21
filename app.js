@@ -22,7 +22,7 @@ console.log(numberPattern.test(textForNumber));
 
 // Password 
 
-let textPass = "Achem&a" ;
+let textPass = "Achhem&a" ;
 let passPattern = /^[A-Za-z1-9@#%\$&\*\+]{8,16}$/;
 console.log(`This Is Password Validation
 ( ${textPass} )`);
